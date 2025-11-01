@@ -1,0 +1,56 @@
+# --- General ---
+.DS_Store
+*.log
+local_settings.py
+.env
+.env.*
+*.db
+*.sqlite3
+prod.env
+
+priv_key_to_json.py
+
+# --- Python / FastAPI Backend ---
+/backend/venv/
+/backend/lumen_exchange.db
+/backend/__pycache__/
+/backend/.pytest_cache/
+/backend/.mypy_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/build/
+/backend/develop-eggs/
+/backend/dist/
+/backend/downloads/
+/backend/eggs/
+/backend/.eggs/
+/backend/lib64/
+/backend/parts/
+/backend/sdist/
+/backend/var/
+/backend/wheels/
+/backend/pip-wheel-metadata/
+/backend/share/python-wheels/
+/backend/*.egg-info/
+/backend/pip-selfcheck.json
+/backend/app/demo/*
+/backend/.env
+/backend/.env.*
+
+**/__pycache__/
+
+# --- Node / Vite Frontend ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.npm
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/package-lock.json
+
+# --- IDE / Editor specific ---
+.idea/
+.vscode/
+*.swp
+*~

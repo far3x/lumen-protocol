@@ -33,7 +33,6 @@ priv_key_to_json.py
 /backend/share/python-wheels/
 /backend/*.egg-info/
 /backend/pip-selfcheck.json
-/backend/app/demo/*
 /backend/.env
 /backend/.env.*
 
